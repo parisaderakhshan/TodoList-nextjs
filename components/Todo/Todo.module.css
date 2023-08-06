@@ -1,0 +1,33 @@
+.todo{
+    width: 100%;
+   min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    min-width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-top: 30px;
+    font-size:30px;
+    font-weight: bold;
+    font-family:Roboto_bold;
+
+}
+.title >h1{
+    background: #e14d3f;
+    background: linear-gradient(to right, #e14d3f 0%, #d15e25 50%, #ffd500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input{
+    min-width:30%;
+    margin-top: 30px;
+}
+
